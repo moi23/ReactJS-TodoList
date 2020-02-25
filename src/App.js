@@ -5,7 +5,7 @@ import Tarefa from "./components/Tarefas";
 function App() {
   return (
     <div className="App">
-      <Tarefa />
+      <Tarefa titulo="Todolist com state && props bro!" />
     </div>
   );
 }

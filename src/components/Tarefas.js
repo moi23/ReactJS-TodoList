@@ -2,10 +2,10 @@ import React, { Component, Fragment } from "react";
 import "./tarefas.css";
 class Tarefa extends Component {
 
-  constructor() {
+  constructor(props) {
 
     //super dispara o construtor da classe que está sendo extendida
-    super();
+    super(props);
 
     // boas práticas inicia o state com valor vazio
     this.state = {
@@ -24,7 +24,7 @@ class Tarefa extends Component {
   render() {
     return (
       <Fragment>
-        <h1>Gerenciador de Tarefas</h1>
+        <h1>{this.props.titulo}</h1>
         <input
           onChange={this.handleChange}
           placeholder={this.state.placeholder}
