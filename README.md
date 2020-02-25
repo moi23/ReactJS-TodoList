@@ -5,7 +5,11 @@
 
 ## Aborded Themes
 
-> Herança
+> Herança de Classes
+
+> Super(){}
+
+> Constructor(){}
 
 > Props
 
